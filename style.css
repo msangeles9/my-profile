@@ -1,0 +1,177 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap');
+
+
+/* General Page Styling */
+body {
+    font-family: "Lora", Georgia, serif;
+    background-color: #FDF8F4;
+    color: #4F6272;
+
+    margin: 0;
+    padding: 2rem;
+
+    line-height: 1.6;
+}
+
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #4F6272;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+
+/* Section Headings */
+h2 {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #4F6272;
+    font-size: 1.8rem;
+
+    border-bottom: 2px solid #D8A7B1;
+    padding-bottom: 0.5rem;
+
+    margin-top: 2rem;
+}
+
+
+/* Photo + About Me Flexbox */
+.profile-section {
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+
+/* Profile Photo */
+.profile-pic {
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 5px solid #D8A7B1;
+}
+
+
+/* About Me Box */
+.bio {
+    flex: 1;
+
+    background-color: #FFFFFF;
+
+    padding: 1.5rem;
+
+    border: 2px solid #B7C4CF;
+    border-radius: 10px;
+
+    margin: 0;
+}
+
+
+/* Lists */
+ul {
+    background-color: #FFFFFF;
+
+    padding: 1.5rem 2rem;
+
+    border: 2px solid #B7C4CF;
+    border-radius: 10px;
+
+    margin-top: 1rem;
+}
+
+
+/* Passion Project Boxes */
+.project {
+    background-color: #FFFFFF;
+
+    padding: 1.5rem;
+
+    border: 2px solid #B7C4CF;
+    border-radius: 10px;
+
+    margin-bottom: 1rem;
+}
+
+.project h3 {
+    font-family: "Poppins", Arial, sans-serif;
+    color: #D8A7B1;
+}
+
+
+/* Links */
+a {
+    color: #D8A7B1;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4F6272;
+    text-decoration: underline;
+}
+
+
+/* Contact Section */
+.contact {
+    margin-top: 2rem;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+
+    margin-top: 3rem;
+
+    font-size: 1.2rem;
+
+    font-family: "Poppins", Arial, sans-serif;
+    color: #4F6272;
+}
+
+
+/* Mobile Responsive Layout */
+@media (max-width: 600px) {
+
+    body {
+        padding: 1rem;
+    }
+
+
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+
+    h1 {
+        font-size: 2rem;
+    }
+
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+}
